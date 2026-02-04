@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: white;
+}
+.nav{
+    background-color: rgb(212, 39, 39);
+    height: 40px;
+    width:auto;
+   padding: 10px;
+   color: aliceblue;
+}
+.nav span {
+    left: 20px;
+    position: relative;
+}
+
+.footer {
+    background-color: rgb(13, 144, 252);
+    height: 30px;
+    width: 100%;
+   padding: 10px;
+   color: aliceblue;
+   bottom: 0px;
+   left: 0px;
+   position: fixed;
+   text-align: center;
+  
+}
+/*.login-container {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    height: 380px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    bottom: 20px;
+    text-align: center;
+    box-shadow: 0px 1px 5px 1px rgb(235, 234, 234) ;
+}*/
+input[type="text"] {
+    width: 250px;
+    height: 30px;
+    font-size: 12;
+    border: 1px solid#dbd9d9;
+    border-radius: 2px;
+    padding-left: 30px;
+}
+    
+
+input[type="password"] {
+    width: 250px;
+    height: 30px;
+    font-size: 12;
+    border: 1px solid#dbd9d9;
+   border-radius: 2px;
+   padding-left: 30px;
+   padding-right: 30px;
+}
+.Remember {
+    display: flex;
+
+    cursor: pointer;
+    margin-left: 30px;
+}
+button{
+    height: 30px;
+    width: 250px;
+    background-color: rgb(41, 160, 240);
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid rgb(98, 208, 241);
+}
+hr {
+    width: 70%;
+    margin: auto;
+}
+fieldset {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    height: 400px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    bottom: 20px;
+    text-align: center;
+    box-shadow: 0px 1px 5px 1px rgb(235, 234, 234) ;
+    border: 1px brown;
+}
+p{
+    font-weight: bold;
+}
+.grouped-input{
+    position: relative;
+
+}
+
+#email{
+    position: absolute;
+    top: 28%;
+    left: 30px;
+
+}
+#key{
+    position: absolute;
+    top: 28%;
+    left: 30px;
+}
+
+#eye{
+    position: absolute;
+    top: 28%;
+    left: 244px;
+}
+
